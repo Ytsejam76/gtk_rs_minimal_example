@@ -1,0 +1,9 @@
+[package]
+name = "gtk-rs-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gio = { version = "0.20.11", features = ["v2_64"] }
+glib = { version = "0.20.10", features = ["v2_64"] }
+gtk = "0.18.2"
